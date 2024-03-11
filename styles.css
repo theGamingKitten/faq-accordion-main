@@ -13,11 +13,12 @@ body {
     background-repeat: no-repeat;
     background-size: contain;
     color: var(--dark-purple);
+    font-size: 16px;
 }
 
 .faq-container {
     background-color: var(--white);
-    width: 80%;
+    width: 70%;
     margin: 100px auto;
     border-radius: 10px;
     padding: 20px;
@@ -29,7 +30,7 @@ body {
 }
 
 .faq-title {
-    margin-left: 25px;
+    margin-left: 5px;
     display: inline-block;
     font-weight: 700;
 }
@@ -54,7 +55,7 @@ body {
     margin-right: 15px;
     width: 80%;
     text-align: left;
-    font-size: larger;
+    font-size: 0.9rem;
     font-weight: 600;
 }
 
@@ -65,11 +66,12 @@ body {
 }
 
 .answer {
-    font-size: 16px;
+    font-size: 0.8rem;
     display: none;
     color: var(--grayish-purple);
     font-weight: 400;
     margin-bottom: 25px;
+    line-height: 1.5;
 }
 
 .show {
